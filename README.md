@@ -1,29 +1,26 @@
 # ManuScrape Windows App
 
-ManuScrape is a solution made for managing large amounts of observations, that consist of images mapped to customized parameters. 
-<br />
-<br />
-The solution provides a set of tools to collect, edit, enrich and export observations.
+ManuScrape is a solution made for managing large amounts of observations, that consist of images mapped to customized parameters. The solution provides a set of tools to collect, edit, enrich and export observations.
 <br />
 <br />
 There are two main actors: the *project manager* and the *collaborator*. 
 <br />
 <br />
 
-
 ## Basic feature overview:
 
 *Project managers* can setup projects using the web app: 
 <br />
-*(COMMENT: WEB APP IS A NEW WORD HERE, WOULD IT MAKE SENSE WITH A LINK TO ANOTHER REPO? OR IS IT THIS ONE? IS THERE A PRECISE WORD FOR REFERENCING THE "WINDOWS APP" OR THE "NUXT" APP OR MAYBE JUST "THIS SOLUTION"? IN THAT CASE IT MIGHT BE BETTER... BUT - IT MIGHT ALSO BE COMPLETELY FINE IF IT MAKES GOOD SENSE WHEN YOU MAKE USE OF THE SOLUTION. OR... IF BOTH WEB APP AND NATIVE APP IS WITHIN THIS GIT REPO, MAYBE IT'S JUST FINE AS IT IS?? SINCE I DON'T HAVE THE SLIGHTEST IDEA OF THE ACTUAL SOLUTION(s) I AM NOT ABLE TO DECIDE)*
+(COMMENT: WEB APP IS A NEW WORD HERE, WOULD IT MAKE SENSE WITH A LINK TO ANOTHER REPO? OR IS IT THIS ONE? IS THERE A PRECISE WORD FOR REFERENCING THE "WINDOWS APP" OR THE "NUXT" APP OR MAYBE JUST "THIS SOLUTION"? IN THAT CASE IT MIGHT BE BETTER... BUT - IT MIGHT ALSO BE COMPLETELY FINE IF IT MAKES GOOD SENSE WHEN YOU MAKE USE OF THE SOLUTION. OR... IF BOTH WEB APP AND NATIVE APP IS WITHIN THIS GIT REPO, MAYBE IT'S JUST FINE AS IT IS?? SINCE I DON'T HAVE THE SLIGHTEST IDEA OF THE ACTUAL SOLUTION(s) I AM NOT ABLE TO DECIDE)
 
   1. Enter project name
   2. Define observation parameters
-  3. Invite collaborators by email
+  3. Invite *collaborators* by email
 
-*Collaborators* can then submit observations (using native app): 
-<br />
-*(COMMENT: SAME THING - IS IT THIS GIT REPO? IS IT ANOTHER REPO? SHOULD A LINK BE ADDED? CONSIDER IF A MORE PRECISE REFERENCE TO AN APP NAME, GIT-REPO-NAME, OR "NATIVE WINDOWS APP", OR MAYBE JUST "OS-NATIVE APP" WOULD BE MORE PRECISE? )*
+*Collaborators* can then submit observations (using native app):
+ 
+
+(COMMENT: SAME THING - IS IT THIS GIT REPO? IS IT ANOTHER REPO? SHOULD A LINK BE ADDED? CONSIDER IF A MORE PRECISE REFERENCE TO AN APP NAME, GIT-REPO-NAME, OR "NATIVE WINDOWS APP", OR MAYBE JUST "OS-NATIVE APP" WOULD BE MORE PRECISE? )
 
   1. Capture image (using smart tools or file upload) *(COMMENT: Is "Smart Tools" a word that makes sense when you use the solution? If not, "solution-provided tools" might be better")*
   2. Edit image
@@ -31,13 +28,13 @@ There are two main actors: the *project manager* and the *collaborator*.
   4. Attach extra files if any
   5. Submit observation
 
-Whether you're a collaborator or project owner isn't bound to your ManuScrape user, but to your permission role in the specific project.
+Whether you're a *collaborator* or *project manager* isn't bound to your ManuScrape user, but to your permission role in the specific project.
 
 COMMENT: I (MIGHT) SUGGEST THIS SENTENCE INSTEAD:
 
 Your ManuScrape user's permissions can be granted per project, which means that a ManuScrape user can have the *project manager* permission role in certain projects, while having the *collaborator* permission role in other projects.
 
-The project manager can export the entire project into to different formats, including (COMMENT:WHATTYPEOF??)spreadsheets and zip files(COMMENT:FOLDERS?). Right now the export features are optimized to deliver formats that are easy to import into [NVivo 14](https://lumivero.com/products/nvivo/).
+The *project manager* can export the entire project into to different formats, including (COMMENT:WHATTYPEOF??)spreadsheets and zip files(COMMENT:FOLDERS?). Right now the export features are optimized to deliver formats that are easy to import into [NVivo 14](https://lumivero.com/products/nvivo/).
 <br />
 <br />
 
